@@ -1,0 +1,12 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>CBDG DM</Name><AddInID>{de771a11-ee50-4c98-807d-e3f8001fec5e}</AddInID><Description>Eksport danych i zasilenie DM, Baza4, Oracle</Description><Version>0.1</Version><Image>Images\globe-icon_2.png</Image><Author>dagmara</Author><Company>CBDG PIG PIB</Company><Date>03/27/2015</Date><Targets><Target name="Desktop" version="10.2" /></Targets><AddIn language="PYTHON" library="addins_addin.py" namespace="addins_addin"><ArcMap>
+    <Commands>
+        <Button caption="CBDG eksport" category="CBDG DM" class="CBDG" id="addins_addin.btn1" image="Images\globe-icon_1.png" message="CBDG eksport" tip="CBDG eksport"><Help heading="CBDG eksport">CBDG eksport</Help></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="CBDG" category="CBDG DM" id="addins_addin.toolbar" showInitially="true"><Items><Button refID="addins_addin.btn1" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
