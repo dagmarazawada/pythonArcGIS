@@ -1,0 +1,294 @@
+################## Start pyCBDG ################## 
+  
+Usuwanie zmapowanego dysku G:
+W poˆ¥czeniu z G: s¥ otwarte pliki i/lub oczekuj¥ce na dokoäczenie operacje przeszukiwania katalog¢w.
+
+Pomy˜lnie usuni©to G:.
+
+Mapowanie dysku G:
+Polecenie zostaˆo wykonane pomy˜lnie.
+
+Skrypty Python:
+--- Export do .shp i .zip ---
+1 [2015/05/05 13:03:18]
+  --> Nazwa warstwy: cbdg_otwory
+  --> Eksport do warstwy: cbdg_otwory_2015_05_05.shp
+  --> Katalog: D:\_exportDM\cbdg_otwory_2015_05_05
+  --> Zipped!
+2 [2015/05/05 13:03:24]
+  --> Nazwa warstwy: cbdg_otwory_badania
+  --> Eksport do warstwy: cbdg_otwory_badania_2015_05_05.shp
+  --> Katalog: D:\_exportDM\cbdg_otwory_badania_2015_05_05
+  --> Zipped!
+3 [2015/05/05 13:03:24]
+  --> Nazwa warstwy: cbdg_midas_obszary
+  --> Eksport do warstwy: cbdg_midas_obszary_2015_05_05.shp
+  --> Katalog: D:\_exportDM\cbdg_midas_obszary_2015_05_05
+  --> Zipped!
+4 [2015/05/05 13:03:24]
+  --> Nazwa warstwy: cbdg_midas_tereny
+  --> Eksport do warstwy: cbdg_midas_tereny_2015_05_05.shp
+  --> Katalog: D:\_exportDM\cbdg_midas_tereny_2015_05_05
+  --> Zipped!
+5 [2015/05/05 13:03:25]
+  --> Nazwa warstwy: cbdg_midas_kontury
+  --> Eksport do warstwy: cbdg_midas_kontury_2015_05_05.shp
+  --> Katalog: D:\_exportDM\cbdg_midas_kontury_2015_05_05
+  --> Zipped!
+--- Kopia plikow .zip na serwer DM ---
+  --> Nazwa warstwy: cbdg_otwory
+  --> Eksport do warstwy: cbdg_otwory_2015_05_05.shp
+  --> Plik: cbdg_otwory_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_otwory_badania
+  --> Eksport do warstwy: cbdg_otwory_badania_2015_05_05.shp
+  --> Plik: cbdg_otwory_badania_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_obszary
+  --> Eksport do warstwy: cbdg_midas_obszary_2015_05_05.shp
+  --> Plik: cbdg_midas_obszary_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_tereny
+  --> Eksport do warstwy: cbdg_midas_tereny_2015_05_05.shp
+  --> Plik: cbdg_midas_tereny_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_kontury
+  --> Eksport do warstwy: cbdg_midas_kontury_2015_05_05.shp
+  --> Plik: cbdg_midas_kontury_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+--- Przetwarzanie danych XY do warstwy przestrzennej .shp [2015/05/05 13:03:27] ---
+  --> Katalog: D:\_exportDM\cbdg_srodowisko_jaskinie_2015_05_05
+  --> Wyeksportowano warstwe cbdg_srodowisko_jaskinie_2015_05_05.shp
+  --> Zipped!
+  --> Plik: cbdg_srodowisko_jaskinie_2015_05_05.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Tresc wiadomosci: From nobody Tue May 05 13:03:38 2015
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+***Download Manager - export danych 2015/05/05 13:03:27 ***
+
+Nastepujace warstwy zostaly wyeksportowane i skopiowane na serwer: 192.168.1.74\DMFILEDIR\ : 
+
+cbdg_otwory_2015_05_05.shp
+cbdg_otwory_badania_2015_05_05.shp
+cbdg_midas_obszary_2015_05_05.shp
+cbdg_midas_tereny_2015_05_05.shp
+cbdg_midas_kontury_2015_05_05.shp
+cbdg_srodowisko_jaskinie_2015_05_05.shp
+  --> Wiadomosc wyslana
+[]
+0
+wykonanie wszystkiego trwalo [s]: 58.14
+Do IMS [2015/05/05 13:03:51]
+  --> Katalog: D:\_exportDM\cbdg_otwory
+  --> Dodano kolumne IMS do cbdg_otwory.shp 
+  --> Wypelniono kolumne IMS 
+  --> Wybrano otwory.shp po glebokosci: otwory499 i otwory500 
+--- Przetwarzanie zasilania Baza4 [2015/05/05 13:07:28] ---
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_TERENY
+rows updated 157808
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_TERENY
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_GRANICE
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_GRANICE
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_OBSZARY
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_OBSZARY
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_BADANIA
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_BADANIA
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_499
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_499
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_500
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_500
+      Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.JASKINIE
+      Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.JASKINIE
+--- Przetwarzanie zasilania Oracle [2015/05/05 13:26:54] ---
+      Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_GRANICE
+      Wybrano obiektow: 14374
+      Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_GRANICE
+      Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_OBSZARY
+      Wybrano obiektow: 6724
+      Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_OBSZARY
+      Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_TERENY
+      Wybrano obiektow: 6451
+      Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_TERENY
+      Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.OTWORY
+      Wybrano obiektow: 157808
+      Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.OTWORY
+      Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.JASKINIE
+      Wybrano obiektow: 3859
+      Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.JASKINIE
+--- Przetwarzanie zasilania Oracle [2015/05/05 13:39:18] ---
+  --> Kopiowanie tabeli tempTableMV_MWP
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\MV_MWP
+  --> Usuwanie danych z D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_MWP
+  --> Zasilanie danych do D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_MWP
+--- Przetwarzanie zasilania Baza4 [2015/05/05 13:39:27] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MWP
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MWP
+  --> Usuwanie danych z D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_MWP
+  --> Zasilanie danych do D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_MWP
+--- Przetwarzanie zasilania Oracle [2015/05/05 13:39:37] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MV_OTWORY
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MV_OTWORY
+  --> Usuwanie danych z D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_OTWORY
+  --> Zasilanie danych do D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_OTWORY
+--- Przetwarzanie zasilania Baza4 [2015/05/05 13:50:40] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MV_OTWORY
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MV_OTWORY
+  --> Usuwanie danych z D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_OTWORY
+  --> Zasilanie danych do D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_OTWORY
+wykonanie trwalo [s]: 2138.78
+wykonanie wszystkiego trwalo [s]: 3013.82
+Koniec skryptow Python
+ 
+
+ 
+################## Start pyCBDG ################## 
+  
+Usuwanie zmapowanego dysku G:
+Pomy˜lnie usuni©to G:.
+
+Mapowanie dysku G:
+Polecenie zostaˆo wykonane pomy˜lnie.
+
+Skrypty Python:
+  --> Utworzono baze gdb midas.gdb
+  --> Utworzono baze gdb oracle2oracle.gdb
+  --> Utworzono baze gdb tempGDB.gdb
+--- Export do .shp i .zip ---
+1 [2015/05/06 06:31:38]
+  --> Nazwa warstwy: cbdg_otwory
+  --> Katalog: D:\_exportDM\cbdg_otwory_2015_05_06
+  --> Przetwarzanie cbdg_otwory 
+  --> Pliki spakowane do zip
+2 [2015/05/06 06:51:46]
+  --> Nazwa warstwy: cbdg_otwory_badania
+  --> Katalog: D:\_exportDM\cbdg_otwory_badania_2015_05_06
+  --> Przetwarzanie cbdg_otwory_badania 
+  --> Pliki spakowane do zip
+3 [2015/05/06 06:51:58]
+  --> Nazwa warstwy: cbdg_midas_obszary
+  --> Katalog: D:\_exportDM\cbdg_midas_obszary_2015_05_06
+  --> Przetwarzanie cbdg_midas_obszary 
+  --> Pliki spakowane do zip
+4 [2015/05/06 06:52:43]
+  --> Nazwa warstwy: cbdg_midas_tereny
+  --> Katalog: D:\_exportDM\cbdg_midas_tereny_2015_05_06
+  --> Przetwarzanie cbdg_midas_tereny 
+  --> Pliki spakowane do zip
+5 [2015/05/06 06:53:10]
+  --> Nazwa warstwy: cbdg_midas_kontury
+  --> Katalog: D:\_exportDM\cbdg_midas_kontury_2015_05_06
+  --> Przetwarzanie cbdg_midas_kontury 
+  --> Pliki spakowane do zip
+--- Kopia plikow .zip na serwer DM ---
+  --> Nazwa warstwy: cbdg_otwory
+  --> Plik: cbdg_otwory_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_otwory_badania
+  --> Plik: cbdg_otwory_badania_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_obszary
+  --> Plik: cbdg_midas_obszary_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_tereny
+  --> Plik: cbdg_midas_tereny_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Nazwa warstwy: cbdg_midas_kontury
+  --> Plik: cbdg_midas_kontury_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+--- Przetwarzanie danych XY Jaskinie do warstwy przestrzennej .shp [2015/05/06 06:55:17] ---
+  --> Katalog: D:\_exportDM\cbdg_srodowisko_jaskinie_2015_05_06
+  --> Wyeksportowano warstwe cbdg_srodowisko_jaskinie_2015_05_06.shp
+  --> Pliki spakowane do zip
+  --> Plik: cbdg_srodowisko_jaskinie_2015_05_06.zip skopiowany na 192.168.1.74\DMFILEDIR
+  --> Dodano opis DM MIDAS - zloza kopalin..
+  --> Dodano opis DM MIDAS - obszary gornicze..
+  --> Dodano opis DM MIDAS - zloza tereny..
+  --> Dodano opis DM MIDAS - otwory..
+  --> Dodano opis DM MIDAS - otwory badania..
+  --> Dodano opis DM MIDAS - otwory badania..
+  --> Przygotowywanie wiadomosci e-mail..
+  --> Tresc wiadomosci: From nobody Wed May 06 06:56:32 2015
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+***Download Manager - export danych 2015/05/06 06:55:17 ***
+
+Nastepujace warstwy zostaly wyeksportowane i skopiowane na serwer: 192.168.1.74\DMFILEDIR\ : 
+
+cbdg_otwory_2015_05_06.shp
+cbdg_otwory_badania_2015_05_06.shp
+cbdg_midas_obszary_2015_05_06.shp
+cbdg_midas_tereny_2015_05_06.shp
+cbdg_midas_kontury_2015_05_06.shp
+cbdg_srodowisko_jaskinie_2015_05_06.shp
+  --> Wiadomosc wyslana
+cbdg_midas_kontury_2015_05_06.zip
+cbdg_midas_obszary_2015_05_06.zip
+cbdg_midas_tereny_2015_05_06.zip
+cbdg_otwory_2015_05_06.zip
+cbdg_otwory_badania_2015_05_06.zip
+cbdg_otwory_badania_2015_05_06.zip
+[u'cbdg_midas_kontury_2015_05_06.zip', u'cbdg_midas_obszary_2015_05_06.zip', u'cbdg_midas_tereny_2015_05_06.zip', u'cbdg_otwory_2015_05_06.zip', u'cbdg_otwory_badania_2015_05_06.zip', u'cbdg_otwory_badania_2015_05_06.zip']
+6
+wykonanie wszystkiego trwalo [s]: 1571.94
+  --> Utworzono baze gdb tempGDB.gdb
+--- Przetworzenia do przegladarki IMS [2015/05/06 06:56:46] ---
+  --> Katalog: D:\_exportDM\cbdg_otwory
+  --> Kopiowanie cbdg_otwory.shp 
+  --> Dodano kolumne [IMS] do cbdg_otwory.shp 
+  --> Wypelniono kolumne [IMS] 
+  --> Wybrano otwory.shp po glebokosci: otwory499 i otwory500 
+--- Przetwarzanie zasilania Baza4 [2015/05/06 07:00:30] ---
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_TERENY
+  --> rows updated: 157810
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_TERENY
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_GRANICE
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_GRANICE
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_OBSZARY
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.ZLOZA_OBSZARY
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_BADANIA
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_BADANIA
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_499
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_499
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_500
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.OTWORY_500
+  --> Usuwanie danych z D:\_exportDM\baza4_dzaw.sde\sde.SDE.JASKINIE
+  --> Zasilanie danych do D:\_exportDM\baza4_dzaw.sde\sde.SDE.JASKINIE
+--- Przetwarzanie zasilania Oracle [2015/05/06 07:19:50] ---
+  --> Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_GRANICE
+  --> Wybrano obiektow: 14374
+  --> Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_GRANICE
+  --> Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_OBSZARY
+  --> Wybrano obiektow: 6724
+  --> Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_OBSZARY
+  --> Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_TERENY
+  --> Wybrano obiektow: 6451
+  --> Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.ZLOZA_TERENY
+  --> Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.OTWORY
+  --> Wybrano obiektow: 157810
+  --> Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.OTWORY
+  --> Usuwanie danych z D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.JASKINIE
+  --> Wybrano obiektow: 3874
+  --> Zasilanie danych do D:\_exportDM\oracle_gis_pig2.sde\GIS_PIG2.JASKINIE
+--- Przetwarzanie zasilania Oracle [2015/05/06 07:31:40] ---
+  --> Kopiowanie tabeli tempTableMV_MWP
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\MV_MWP
+  --> Usuwanie danych z D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_MWP
+  --> Zasilanie danych do D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_MWP
+--- Przetwarzanie zasilania Baza4 [2015/05/06 07:31:51] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MWP
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MWP
+  --> Usuwanie danych z D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_MWP
+  --> Zasilanie danych do D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_MWP
+--- Przetwarzanie zasilania Oracle [2015/05/06 07:32:00] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MV_OTWORY
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MV_OTWORY
+  --> Usuwanie danych z D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_OTWORY
+  --> Zasilanie danych do D:\_exportDM\oracle_hydro_sdo.sde\HYDRO_SDO.HYDRO_OTWORY
+--- Przetwarzanie zasilania Baza4 [2015/05/06 07:42:50] ---
+  --> Kopiowanie tabeli tempTableHYDRO_MV_OTWORY
+  --> Tworzenie warstwy przestrzennej D:\_exportDM\tempGDB.gdb\HYDRO_MV_OTWORY
+  --> Usuwanie danych z D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_OTWORY
+  --> Zasilanie danych do D:\_exportDM\baza4Hydro.sde\sde.HYDRO.HYDRO_OTWORY
+wykonanie trwalo [s]: 2107.10
+wykonanie wszystkiego trwalo [s]: 2948.50
+Koniec skryptow Python
+ 
+
