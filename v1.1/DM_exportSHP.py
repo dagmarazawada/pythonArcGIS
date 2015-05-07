@@ -79,7 +79,8 @@ today = datetime.datetime.now()
 yesterday = today - datetime.timedelta(days=1)   
 today = today.strftime("%d.%m.%Y")
 today_ = now.strftime("%Y_%m_%d")
-yesterday = yesterday.strftime("%d.%m.%Y")
+#yesterday = yesterday.strftime("%d.%m.%Y")
+yesterday_ = yesterday.strftime("%Y_%m_%d")
 
 ### utworzenie nazw warstw
 def create_date_name(lyrNr):
@@ -280,7 +281,7 @@ def remove_old_files(old_file_path):
         os.remove(old_file_path)
         arcpy.AddMessage('  --> Usunieto plik: '+ old_file_path)
     else:
-        arcpy.AddMessage('  --> Nie znaleziono pliku do usuniecia')
+        arcpy.AddMessage('  --> Nie znaleziono pliku do usuniecia ' + old_file_path)
 
 ### wyslanie info na maila
 
@@ -464,7 +465,7 @@ xy2events2shp()
 copy2_dmfiledir("cbdg_srodowisko_jaskinie_"+today_)
 
 
-### otworzenie konsoli adm DM, wypelnienie nazwami warstw i wyslanie maila z potwierdzeniem eksportu
+### otworzenie konsoli adm DM, wypelnienie nazwami warstw
 # wykonanie zapetlone w zaleznosci od liczby warstw do wpisania nazw 6
 while len(DMlayers) != 6:
     try:
@@ -477,6 +478,14 @@ print DMlayers
 print len(DMlayers)
 
 
+### usuwanie starych plikow (z wczorajsza data) z serwera
+files_to_rm = ['cbdg_midas_kontury_', 'cbdg_midas_obszary_', 'cbdg_midas_tereny_', 'cbdg_otwory_', 'cbdg_otwory_badania_', 'cbdg_srodowisko_jaskinie_']
+
+for n in files_to_rm:
+    remove_old_files("G:\\" + n + yesterday_ + ".zip")
+
+
+### wyslanie maila z potwierdzeniem eksportu
 send_mail_info(lyrNr)
 
 
