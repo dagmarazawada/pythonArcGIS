@@ -467,8 +467,7 @@ copy2_dmfiledir("cbdg_srodowisko_jaskinie_"+today_)
 
 ### otworzenie konsoli adm DM, wypelnienie nazwami warstw
 # wykonanie zapetlone w zaleznosci od liczby warstw do wpisania nazw 6
-# funkcja list(set())) usuwa powtorzenia - SPRAWDZIC
-while len( list(set(DMlayers)) ) != 6:
+while len(DMlayers) != 6:
     try:
         fillNames()
     except: pass
@@ -478,8 +477,6 @@ driver.close()
 print DMlayers
 print len(DMlayers)
 
-print list(set(DMlayers))
-print len(list(set(DMlayers)))
 
 ### usuwanie starych plikow (z wczorajsza data) z serwera
 files_to_rm = ['cbdg_midas_kontury_', 'cbdg_midas_obszary_', 'cbdg_midas_tereny_', 'cbdg_otwory_', 'cbdg_otwory_badania_', 'cbdg_srodowisko_jaskinie_']
