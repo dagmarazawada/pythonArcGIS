@@ -13,6 +13,7 @@ Echo Skrypty Python:
 
 c:\Python27\ArcGIS10.2\python.exe D:\\_exportDM\\pyCBDG\\DM_exportSHP.py %*
 c:\Python27\ArcGIS10.2\python.exe D:\\_exportDM\\pyCBDG\\DB_feed.py %*
+c:\Python27\ArcGIS10.2\python.exe D:\\_exportDM\\pyCBDG\\DM_cleanup.py %*
 
 Echo Koniec skryptow Python
 
